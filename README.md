@@ -1,6 +1,6 @@
 # GTA Clipper Skill for Claude Code
 
-> Part of the **Automators+** skills library -- Claude Code skills shared with the [Automators community](https://www.skool.com/automation-forge-7306).
+> Part of the **Automators+** skills library -- Claude Code skills shared with the [Automators community](https://www.skool.com/automation-forge-7306/about).
 
 Every day, streamers' best GTA 6 moments get clipped by their viewers on Twitch. This skill finds the most viewed ones, and turns each into a finished vertical clip ready for TikTok, Reels and Shorts: the streamer's webcam big on top, the game below, every word they say popping up as they say it, the funniest second pulled to the front as the hook, and the streamer credited on screen.
 
