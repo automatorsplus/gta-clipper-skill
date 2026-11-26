@@ -30,8 +30,10 @@ It installs ffmpeg, whisper-cpp and Deno through Homebrew if missing, builds a P
    Privacy settings, enable 2FA, then refresh the console.
 3. In the console: **Applications**, then **Register Your Application**.
    - Name: anything, but it must be unique across Twitch, e.g. `gta-clipper-<their name>`
-   - OAuth Redirect URLs: `http://localhost`, then **Add** (this tool never uses it, the form just needs one)
+   - OAuth Redirect URLs: type exactly `http://localhost`, then **Add** (this tool never uses it, the form just needs
+     one). The red *must use HTTPS* line shows until a URL is added; plain `http://localhost` is accepted
    - Category: whichever fits; it does not change the keys
+   - Client Type: **Confidential**. A public app gets no secret, and this tool needs one
    - Tick *I'm not a robot*, then **Create**.
 4. Back on Applications, click **Manage** on the new app. Copy the **Client ID**. Click **New Secret** and copy the
    secret straight away.
